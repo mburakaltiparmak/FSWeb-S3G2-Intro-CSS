@@ -1,0 +1,161 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+    font-family: Chelsea ;
+    src: url(./assets/fonts/ChelseaMarket-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto ;
+    src: url(./assets/fonts/RobotoMono-VariableFont_wght.ttf);
+}
+main {
+  display: block;
+  padding: 50px;
+}
+main div{
+  display: inline-block;
+  width: 730px;
+  text-align: center;
+  vertical-align: middle;
+}
+main img {
+  /*margin: 10px 0px 0px 0px;*/ 
+  display: inline-block;   
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+ /* object-fit: cover;*/
+ vertical-align: middle;
+ margin-left: 20px;
+  
+}
+main div p {
+    text-align: center;
+    font-family: Roboto ;
+}
+
+main div h1 {   
+    font-family: Chelsea ;
+    text-align: center;
+}
+.container {
+width: 1000px;
+margin:0 auto;
+text-align: center;
+}
+nav a {
+  width: 100px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  padding: 12px;
+  background:#5ED3EB ;
+  margin: 10px 90px ;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
+  font-family: Roboto;
+  font-size: smaller;
+}
+nav a:first-child{
+  background-color:#FF764E ;
+  margin: 10px 50px;
+  padding: 5px;
+}
+nav a:last-child{
+  background-color: #FFCD69;
+  margin: 10px 50px;
+}
+.about-us-section {
+  background-color: #DDB9A3;
+  color: white;
+  font-family: Roboto;
+  padding: 0px 10px;
+  text-align: center;
+}
+.feature-section div{
+  width: 40%;
+  margin: auto;
+
+}
+.feature-section img{
+  width:25%;
+  display: block;
+  margin: auto;
+}
+.feature-section p{
+  text-align: center;
+  font-family: Roboto;
+}
+.feature-section span{
+  font-weight: bold;
+  font-family: Roboto;
+}
+footer{
+  background-color:#F9E7DC ;
+
+}
+footer img{
+  height: 200px;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: 100% 5%;
+}
+
+
+  
+/*
+.container header nav a {
+    font-family: Roboto;
+    text-align: center;
+    margin: 0 200px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+        
+  }
+  .container img {
+    margin: 100px 10px 10px 10px;    
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+  }
+  .button1 {
+    font-family: Roboto;
+    text-align: center;
+    margin: 0 50px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color:orange ;
+  }
+  .button2{
+    font-family: Roboto;
+    text-align: center;
+    margin:0 10px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color:aqua ;
+  }
+  .button3 {
+            font-family: Roboto;
+        text-align: center;
+        margin: 0;
+        border: 1px solid lightgray;
+        padding: 10px;
+        display: inline-block;
+        border-radius: 20px;
+        text-decoration: none;
+        background-color:yellow ;
+        } */
